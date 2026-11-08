@@ -1,4 +1,4 @@
-# Shop
+# Phoenix News
 
 To start your Phoenix server:
 
@@ -6,6 +6,9 @@ To start your Phoenix server:
 * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+The development and test databases retain their original `shop_dev.db` and
+`shop_test.db` filenames to preserve existing local data.
 
 Ready to run in production? Please [check our deployment guides](https://phoenix.hexdocs.pm/deployment.html).
 
