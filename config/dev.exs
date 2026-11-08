@@ -5,6 +5,7 @@ config :shop, Shop.Repo,
   database: Path.expand("../shop_dev.db", __DIR__),
   pool_size: 5,
   stacktrace: true,
+  busy_timeout: 5000,
   show_sensitive_data_on_connection_error: true
 
 # For development, we disable any cache and enable
